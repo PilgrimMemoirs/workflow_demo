@@ -1,0 +1,31 @@
+li {
+  display: inline;
+}
+
+ul {
+  text-align: right;
+}
+
+#hero {
+  background-color: yellow;
+}
+
+#hero > * {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+
+article {
+  display: inline-block;
+  width: 30%;
+  background-color: olive;
+  border-radius: 5%;
+}
+
+
+#posts {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
